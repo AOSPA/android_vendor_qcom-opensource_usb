@@ -16,6 +16,23 @@
       "message": "why doesn\u0027t los need this?",
       "revId": "ba777ff58e218c8545d0798018683379f21ba8c0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7cffd03_2cf29006",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-03-04T18:11:10Z",
+      "side": 1,
+      "message": "double checked, LOS does https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/590e57ca3afdcadb9df7396c6640f23bfac9b443.",
+      "revId": "ba777ff58e218c8545d0798018683379f21ba8c0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
