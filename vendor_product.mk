@@ -2,7 +2,11 @@
 # Default property overrides for various function configurations
 # These can be further overridden at runtime in init*.rc files as needed
 #
+ifneq ($(filter anorak,$(TARGET_BOARD_PLATFORM)),)
+PRODUCT_PROPERTY_OVERRIDES += vendor.usb.rndis.func.name=rndis
+else
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.rndis.func.name=gsi
+endif
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.rmnet.func.name=gsi
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.rmnet.inst.name=rmnet
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.dpl.inst.name=dpl
@@ -14,7 +18,7 @@ else
 endif
 
 # QDSS uses SW path on these targets
-ifneq ($(filter lahaina taro bengal_515 kalama monaco,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter lahaina taro parrot neo anorak ravelin bengal_515 kalama monaco,$(TARGET_BOARD_PLATFORM)),)
   PRODUCT_PROPERTY_OVERRIDES += vendor.usb.qdss.inst.name=qdss_sw
 else
   PRODUCT_PROPERTY_OVERRIDES += vendor.usb.qdss.inst.name=qdss
