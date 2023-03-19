@@ -16,6 +16,24 @@
       "message": "extra space here",
       "revId": "66c97b66781639db18b92f3ed25a89a8e4f7f309",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e647bc15_09f85674",
+        "filename": "vendor_product.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000706
+      },
+      "writtenOn": "2023-03-19T22:22:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "579453d1_1bbcd57f",
+      "revId": "66c97b66781639db18b92f3ed25a89a8e4f7f309",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
