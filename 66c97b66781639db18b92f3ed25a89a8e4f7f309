@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "579453d1_1bbcd57f",
+        "filename": "vendor_product.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-03-19T21:51:34Z",
+      "side": 1,
+      "message": "extra space here",
+      "revId": "66c97b66781639db18b92f3ed25a89a8e4f7f309",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
