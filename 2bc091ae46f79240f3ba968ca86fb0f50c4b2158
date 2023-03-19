@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26defb13_83a2c199",
+        "filename": "vendor_product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-03-19T21:13:22Z",
+      "side": 1,
+      "message": "4.14 and higher seems good, so I\u0027d just opt out for 4.9 and lower for now.",
+      "revId": "2bc091ae46f79240f3ba968ca86fb0f50c4b2158",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29984e94_cde13406",
+        "filename": "vendor_product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-03-19T21:13:22Z",
+      "side": 1,
+      "message": "let\u0027s put this at the end and have it be a catch all else.",
+      "revId": "2bc091ae46f79240f3ba968ca86fb0f50c4b2158",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
