@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "acc0813b_754bd4e6",
+        "filename": "vendor_product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000706
+      },
+      "writtenOn": "2023-03-19T21:33:27Z",
+      "side": 1,
+      "message": "I think these are common except for sdm660 and msm8953",
+      "parentUuid": "6dbdfe7c_9ab02da2",
+      "revId": "2bc091ae46f79240f3ba968ca86fb0f50c4b2158",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "29984e94_cde13406",
         "filename": "vendor_product.mk",
         "patchSetId": 1
