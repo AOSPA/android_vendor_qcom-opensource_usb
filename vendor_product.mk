@@ -2,19 +2,26 @@
 # Default property overrides for various function configurations
 # These can be further overridden at runtime in init*.rc files as needed
 #
+ifeq ($(filter sdm660 msm8953 msm8937,$(TARGET_BOARD_PLATFORM)),)
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.rndis.func.name=gsi
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.rmnet.func.name=gsi
+endif
+
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.rmnet.inst.name=rmnet
 PRODUCT_PROPERTY_OVERRIDES += vendor.usb.dpl.inst.name=dpl
 
-ifneq ($(filter bengal_515 monaco,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter bengal bengal_515 holi monaco trinket,$(TARGET_BOARD_PLATFORM)),)
   PRODUCT_PROPERTY_OVERRIDES += vendor.usb.controller=4e00000.dwc3
+else ifneq ($(filter msm8998 sdm660,$(TARGET_BOARD_PLATFORM)),)
+  PRODUCT_PROPERTY_OVERRIDES += vendor.usb.controller=a800000.dwc3
+else ifneq ($(filter msm8953,$(TARGET_BOARD_PLATFORM)),)
+  PRODUCT_PROPERTY_OVERRIDES += vendor.usb.controller=7000000.dwc3
 else
   PRODUCT_PROPERTY_OVERRIDES += vendor.usb.controller=a600000.dwc3
 endif
 
 # QDSS uses SW path on these targets
-ifneq ($(filter lahaina taro bengal_515 kalama monaco,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter  bengal_515 kalama lahaina monaco taro,$(TARGET_BOARD_PLATFORM)),)
   PRODUCT_PROPERTY_OVERRIDES += vendor.usb.qdss.inst.name=qdss_sw
 else
   PRODUCT_PROPERTY_OVERRIDES += vendor.usb.qdss.inst.name=qdss
