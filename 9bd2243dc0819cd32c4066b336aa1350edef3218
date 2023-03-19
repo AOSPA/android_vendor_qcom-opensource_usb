@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9650d0fb_b900bd0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-03-19T22:49:09Z",
+      "side": 1,
+      "message": "Bengal and bengal_515 use different nodes",
+      "revId": "9bd2243dc0819cd32c4066b336aa1350edef3218",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
