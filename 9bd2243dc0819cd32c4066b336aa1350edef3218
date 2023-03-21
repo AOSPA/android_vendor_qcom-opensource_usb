@@ -34,6 +34,24 @@
       "parentUuid": "9650d0fb_b900bd0c",
       "revId": "9bd2243dc0819cd32c4066b336aa1350edef3218",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45d1f85c_5138aa61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-03-21T15:50:46Z",
+      "side": 1,
+      "message": "not completely, but we are already getting everything ready, so as not to break device bengal 4.19",
+      "parentUuid": "f03f5b8e_d0eae159",
+      "revId": "9bd2243dc0819cd32c4066b336aa1350edef3218",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
