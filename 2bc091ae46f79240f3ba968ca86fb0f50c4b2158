@@ -54,6 +54,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d56458c_f82a7065",
+        "filename": "vendor_product.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000706
+      },
+      "writtenOn": "2023-04-08T02:45:51Z",
+      "side": 1,
+      "message": "These are set in init.target.rc on lahaina(kernel 5.4) and older socs. We should only set these for 5.10 and newer imo.",
+      "parentUuid": "acc0813b_754bd4e6",
+      "revId": "2bc091ae46f79240f3ba968ca86fb0f50c4b2158",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29984e94_cde13406",
