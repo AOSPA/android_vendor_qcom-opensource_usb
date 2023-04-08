@@ -52,6 +52,24 @@
       "parentUuid": "f03f5b8e_d0eae159",
       "revId": "9bd2243dc0819cd32c4066b336aa1350edef3218",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95773218_db3d8ece",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000706
+      },
+      "writtenOn": "2023-04-08T02:23:57Z",
+      "side": 1,
+      "message": "Looks like they both use the same controller\n\nhttps://git.codelinaro.org/clo/la/platform/vendor/qcom/bengal/-/blob/LA.UM.9.15.r1-07300-KAMORTA.QSSI13.0/init.target.rc#L85\n\nhttps://git.codelinaro.org/clo/la/device/qcom/bengal_515/-/blob/LA.VENDOR.13.2.1.r1-06400-DIVAR.0/init.target.rc#L90",
+      "parentUuid": "45d1f85c_5138aa61",
+      "revId": "9bd2243dc0819cd32c4066b336aa1350edef3218",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
