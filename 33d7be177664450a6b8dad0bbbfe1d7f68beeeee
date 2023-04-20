@@ -16,6 +16,24 @@
       "message": "should this also include 8937?",
       "revId": "33d7be177664450a6b8dad0bbbfe1d7f68beeeee",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c35e431b_7d4f17ad",
+        "filename": "vendor_product.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000706
+      },
+      "writtenOn": "2023-04-20T22:42:03Z",
+      "side": 1,
+      "message": "8937 uses different controller and i think we shouldn\u0027t set controller for it at all.",
+      "parentUuid": "73a5afd4_795d5484",
+      "revId": "33d7be177664450a6b8dad0bbbfe1d7f68beeeee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
