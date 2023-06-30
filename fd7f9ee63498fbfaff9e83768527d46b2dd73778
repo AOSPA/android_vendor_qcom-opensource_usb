@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13e1d6ef_f89e570f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2023-06-30T14:31:13Z",
+      "side": 1,
+      "message": "Can you guys check that this won\u0027t break anything in Kona?",
+      "revId": "fd7f9ee63498fbfaff9e83768527d46b2dd73778",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
