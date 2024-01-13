@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0af1807_e19a2f79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2024-01-13T08:33:29Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commit/d745d74e91eb369fadc762070f10dc416897729b seems to fix more.",
+      "revId": "3e4bcb90cbee56304e484f3ad324d1dac5297c89",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
