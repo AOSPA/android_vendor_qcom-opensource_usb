@@ -47,7 +47,7 @@ cc_binary {
     ],
 
     init_rc: ["android.hardware.usb.gadget@1.1-service-qti.rc"],
-    vintf_fragments: ["android.hardware.usb.gadget@1.1-service.xml"],
+    vintf_fragments: ["android.hardware.usb.gadget@1.1-service-qti.xml"],
 }
 
 prebuilt_etc {
