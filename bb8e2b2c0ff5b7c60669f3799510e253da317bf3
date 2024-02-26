@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c24c582_e00a4401",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-02-26T13:15:15Z",
+      "side": 1,
+      "message": "fixes gadget hal on davinci and possibly others",
+      "revId": "bb8e2b2c0ff5b7c60669f3799510e253da317bf3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
