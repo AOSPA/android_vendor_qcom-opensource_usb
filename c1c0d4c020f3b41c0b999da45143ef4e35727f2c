@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b9ae0cc_0101713e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000889
+      },
+      "writtenOn": "2024-07-17T16:39:19Z",
+      "side": 1,
+      "message": "Maybe we should switch to AIDL USB Gadget HAL as a preparation for merging LA.VENDOR.14.3 topic?",
+      "revId": "c1c0d4c020f3b41c0b999da45143ef4e35727f2c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
