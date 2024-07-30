@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce4291f6_3e91a492",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-07-30T14:55:07Z",
+      "side": 1,
+      "message": "any reason to have this merged before the la.vendor.14 where it would be aidl?",
+      "revId": "1d2ee235098243750c8c8c2b687d3ae9fe03e645",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
